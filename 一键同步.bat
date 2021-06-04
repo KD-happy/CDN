@@ -1,4 +1,4 @@
 git pull origin master
 git add .
-git commit -m "æè¿°ä¿¡æ¯"
+git commit -m "ÃèÊöĞÅÏ¢"
 git push origin master
