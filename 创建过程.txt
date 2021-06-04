@@ -2,6 +2,14 @@ https://www.cnblogs.com/rrtwin/p/11985819.html
 https://blog.csdn.net/khl_001/article/details/108655856
 https://blog.csdn.net/guankangqiang/article/details/80525539
 
+*************************************************************************************************
+$ ssh -T git@gitee.com
+Hi KD丶珑! You've successfully authenticated, but GITEE.COM does not provide shell access.
+
+$ ssh -T git@github.com
+Hi KD-happy! You've successfully authenticated, but GitHub does not provide shell access.
+*************************************************************************************************
+
 把 C:\Users\25070\.ssh 下的 id_rsa.pub 内容复制到 https://github.com/settings/keys 下的 New SSH key
 
 执行命令：
