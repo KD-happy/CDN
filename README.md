@@ -1,5 +1,7 @@
 # git
 
+使用之前需要查看[点击我](https://blog.csdn.net/guankangqiang/article/details/80525539)
+
 ## clone
 
 **clone项目代码库**
@@ -8,13 +10,13 @@ git clone git@github.com:xxx/xxxx.git
 ```
 
 ## 分支
-
+[源网站](https://www.jianshu.com/p/7ebb0286444f)
 **查看分支**
 ```git
 git branch
 * master
 ```
-\*标志是当前所在的分支
+\* 标志是当前所在的分支
 - 查看远程分支： git branch -r
 - 查看所有分支： git branch -a
 
