@@ -2,6 +2,8 @@
 
 使用之前需要查看[点击我](https://blog.csdn.net/guankangqiang/article/details/80525539)
 
+[总的链接](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)
+
 ## clone
 
 **clone项目代码库**
