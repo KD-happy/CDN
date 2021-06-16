@@ -1,8 +1,11 @@
+[总的链接](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)
+
+[![](https://data.jsdelivr.com/v1/package/gh/KD-happy/CDN/badge)](https://www.jsdelivr.com/package/gh/KD-happy/CDN)
+
 # git
 
 使用之前需要查看[点击我](https://blog.csdn.net/guankangqiang/article/details/80525539)
 
-[总的链接](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)
 
 ## clone
 
@@ -14,6 +17,7 @@ git clone git@github.com:xxx/xxxx.git
 ## 分支
 [源网站](https://www.jianshu.com/p/7ebb0286444f)
 **查看分支**
+
 ```git
 git branch
 * master
