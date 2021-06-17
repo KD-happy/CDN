@@ -1,4 +1,4 @@
-[总的链接](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)         [最新版本](https://cdn.jsdelivr.net/npm/sweetalert2@latest/) 
+[总的链接](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)         [最新版本](https://cdn.jsdelivr.net/gh/KD-happy/CDN@latest/) 
 
 [![](https://data.jsdelivr.com/v1/package/gh/KD-happy/CDN/badge)](https://www.jsdelivr.com/package/gh/KD-happy/CDN)
 
@@ -59,6 +59,8 @@ git push origin :[branch name]
 # 一些好JS的使用
 
 ## SweetAlert 2
+
+[引入作者](https://cdn.jsdelivr.net/npm/sweetalert2@latest/)
 
 **要引入的链接**
 
@@ -137,6 +139,8 @@ Swal.fire({
 ## NoticeJS
 
 [作者的Github](https://github.com/alihesari/notice.js)
+
+[引入作者](https://cdn.jsdelivr.net/gh/alihesari/notice.js@master/dist/)
 
 [animation演示站](https://animate.style/)
 

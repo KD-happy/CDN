@@ -5,7 +5,7 @@ function addCSS(url) {
     css.href = url;
     document.head.appendChild(css);
 }
-//添加JS到head中
+//添加JS到head中    
 function addJS(url) {
     let js = document.createElement('script');
     js.type = 'text/javascript';
