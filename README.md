@@ -140,7 +140,7 @@ Swal.fire({
 
 [作者的Github](https://github.com/alihesari/notice.js)
 
-[引入作者](https://cdn.jsdelivr.net/gh/alihesari/notice.js@master/dist/)
+[引入作者](https://cdn.jsdelivr.net/gh/alihesari/notice.js@latest/dist/)
 
 [animation演示站](https://animate.style/)
 
