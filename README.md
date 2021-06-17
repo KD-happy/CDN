@@ -1,5 +1,5 @@
-[总的链接](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)
-
+[总的链接](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)  
+[最新版本](https://cdn.jsdelivr.net/npm/sweetalert2@latest/)
 [![](https://data.jsdelivr.com/v1/package/gh/KD-happy/CDN/badge)](https://www.jsdelivr.com/package/gh/KD-happy/CDN)
 
 # git
@@ -73,7 +73,7 @@ git push origin :[branch name]
 
 ```javascript
 Swal.fire({
-    type: 'warning', // 弹框类型
+    icon: 'warning', // 弹框类型
     title: '注销帐号', //标题
     text: "注销后将无法恢复，请谨慎操作！", //显示内容            
 
@@ -126,7 +126,7 @@ if (msg) {
 }
 Swal.fire({
     title: '<strong>记录</strong>',
-    type: 'info',
+    icon: 'info',
     html: content, // HTML
     focusConfirm: true, //聚焦到确定按钮
     showCloseButton: true,//右上角关闭
