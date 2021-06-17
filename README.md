@@ -1,6 +1,7 @@
 [总的链接](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)
 
 [![](https://data.jsdelivr.com/v1/package/gh/KD-happy/CDN/badge)](https://www.jsdelivr.com/package/gh/KD-happy/CDN)
+[![](https://kdlong.gitee.io/img/favicon.png)](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)
 
 # git
 
