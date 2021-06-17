@@ -66,8 +66,8 @@ git push origin :[branch name]
 
 **SweetAlert 2使用方法**
 
-> https://blog.csdn.net/WuLex/article/details/109501829
-> https://www.cnblogs.com/beiz/p/5238124.html
+> https://blog.csdn.net/WuLex/article/details/109501829  
+> https://www.cnblogs.com/beiz/p/5238124.html  
 
 **简单的演示**
 
@@ -142,9 +142,9 @@ Swal.fire({
 
 **要引入三个链接**
 
-> https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/noticejs.js
-> https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/noticejs.css
-> https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/animate.css
+> https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/noticejs.js  
+> https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/noticejs.css  
+> https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/animate.css  
 
 **简单的演示**
 
