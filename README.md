@@ -1,5 +1,5 @@
-[总的链接](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)  
-[最新版本](https://cdn.jsdelivr.net/npm/sweetalert2@latest/)
+[总的链接](https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/)         [最新版本](https://cdn.jsdelivr.net/npm/sweetalert2@latest/) 
+
 [![](https://data.jsdelivr.com/v1/package/gh/KD-happy/CDN/badge)](https://www.jsdelivr.com/package/gh/KD-happy/CDN)
 
 # git
