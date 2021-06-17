@@ -15,7 +15,7 @@ git clone git@github.com:xxx/xxxx.git
 ```
 
 ## 分支
-[源网站](https://www.jianshu.com/p/7ebb0286444f)
+[源网站](https://www.jianshu.com/p/7ebb0286444f)  
 **查看分支**
 
 ```git
@@ -60,15 +60,16 @@ git push origin :[branch name]
 
 ## SweetAlert 2
 
-要引入的链接
+**要引入的链接**
 
 > https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/sweetalert2.min.js
 
 **SweetAlert 2使用方法**
-[使用方法1](https://blog.csdn.net/WuLex/article/details/109501829)
-[使用方法2](https://www.cnblogs.com/beiz/p/5238124.html)
 
-简单的演示
+> https://blog.csdn.net/WuLex/article/details/109501829
+> https://www.cnblogs.com/beiz/p/5238124.html
+
+**简单的演示**
 
 ```javascript
 Swal.fire({
@@ -133,19 +134,19 @@ Swal.fire({
 ```
 
 
-## noticejs
+## NoticeJS
 
 [作者的Github](https://github.com/alihesari/notice.js)
 
 [animation演示站](https://animate.style/)
 
-要引入三个链接
+**要引入三个链接**
 
 > https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/noticejs.js
 > https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/noticejs.css
 > https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/animate.css
 
-简单的演示
+**简单的演示**
 
 ```javascript
 function showMessage(msg, type) {
