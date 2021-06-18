@@ -62,6 +62,10 @@ git push origin :[branch name]
 
 [引入作者](https://cdn.jsdelivr.net/npm/sweetalert2@latest/)
 
+作者演示链接
+
+> https://sweetalert2.github.io/#examples
+
 **要引入的链接**
 
 > https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/sweetalert2.min.js
