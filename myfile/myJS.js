@@ -1,13 +1,13 @@
 //添加CSS到head中
 function addCSS(url) {
-    let css = document.createElement('link');
+    var css = document.createElement('link');
     css.rel = 'stylesheet';
     css.href = url;
     document.head.appendChild(css);
 }
 //添加JS到head中    
 function addJS(url) {
-    let js = document.createElement('script');
+    var js = document.createElement('script');
     js.type = 'text/javascript';
     js.src = url;
     document.head.appendChild(js);
@@ -19,10 +19,10 @@ function getCookie(e) {
 //通过Cookie的name获取Cookie的值
 function getCookie(name) {
 	if (document.cookie.length > 0) {
-        let start = document.cookie.indexOf(name + '=')
+        var start = document.cookie.indexOf(name + '=')
         if (start !== -1) {
             start = start + name.length + 1
-            let end = document.cookie.indexOf(';', start)
+            var end = document.cookie.indexOf(';', start)
             if (end === -1) {
                 end = document.cookie.length
             }
@@ -35,7 +35,7 @@ function getCookie(name) {
 }
 //复制
 function doCopy(content) {
-    let aux = document.createElement("input"); 
+    var aux = document.createElement("input"); 
     aux.setAttribute("value", content); 
     document.body.appendChild(aux); 
     aux.select();

@@ -65,6 +65,7 @@ git push origin :[branch name]
 作者演示链接
 
 > https://sweetalert2.github.io/#examples
+> 弹窗还是有主题的，只需要设置css就行了
 
 **要引入的链接**
 
