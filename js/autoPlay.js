@@ -14,7 +14,7 @@ function abb(){
         setTimeout(apDo, 500);
     }
     if(document.querySelector('a') != null) {
-        document.querySelector('a').addEventListener('click', function(e){
+        $('a').addEventListener('click', function(e){
             if(ap.audio.paused == false) {
                 setInfo('apPlaying', 1); //正在播放
                 setInfo('apIndex', ap.list.index); //设置播放的索引
