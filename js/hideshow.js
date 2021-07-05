@@ -14,7 +14,7 @@ function ab(){
         ap.lrc.hide();
     });
 };
-setTimeout(ab, 1000);
+setTimeout(ab, 3000);
 
 /*
     绑定了快捷键：Ctrl+Space 播放/停止
