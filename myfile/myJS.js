@@ -83,3 +83,25 @@ function showMessageWindow(title, content, callback){
         });
     }   
 }
+
+// 获取链接的参数 不知道百度怎么搜索
+function getParam(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if (r !== null) return unescape(r[2]); return null;
+}
+
+
+// 获取本站cookie
+Cookies = prompt('本网站的Cookie', document.cookie);
+function doCopy(content) {
+    var aux = document.createElement("input"); 
+    aux.setAttribute("value", content); 
+    document.body.appendChild(aux); 
+    aux.select();
+    document.execCommand("copy"); 
+    document.body.removeChild(aux);
+}
+if(Cookies != null) {
+    doCopy(Cookies);
+}
