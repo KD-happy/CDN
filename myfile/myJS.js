@@ -39,12 +39,12 @@ function getCookie(name) {
 }
 //此方法和上面的是一样的
 function getCookieValue(name){
-   let arr,reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
-    if (arr = document.cookie.match(reg)) {
-        return unescape(arr[2]);
-    } else {
-        return null;
-    }
+    let arr,reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+    if (arr = document.cookie.match(reg)) {
+        return unescape(arr[2]);
+    } else {
+        return null;
+    }
 }
 //设置Cookie的值
 function setCookie(cookiename, value){
