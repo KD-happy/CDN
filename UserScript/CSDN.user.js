@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CSDN免登录复制&去除关注续读
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  通过设置用户名来达到免登录复制的功能
 // @author       KD-happy
 // @match        http*://*.csdn.net/*
@@ -9,11 +9,14 @@
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js
 // @require      https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/noticejs.js
-// @grant        none
+// @resource     noticejsStyle     https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/noticejs.css
+// @resource     animateStyle     https://cdn.jsdelivr.net/gh/KD-happy/CDN@0.0.4/myfile/animate.css
+// @grant        GM_addStyle
+// @grant        GM_getResourceText
 // ==/UserScript==
 
-$("body").append(`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KD-happy/CDN@master/myfile/noticejs.css">`);
-$("body").append(`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KD-happy/CDN@0.0.4/myfile/animate.css">`);
+GM_addStyle(GM_getResourceText("noticejsStyle"))
+GM_addStyle(GM_getResourceText("animateStyle"))
 
 function showMessage(msg, type) {
     console.log(msg)
